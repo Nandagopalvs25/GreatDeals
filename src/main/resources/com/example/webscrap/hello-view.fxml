@@ -13,9 +13,9 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="778.0" prefWidth="1318.0" style="-fx-background-color: lightgray;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.webscrap.Controllers.Controller">
    <children>
-      <ScrollPane layoutY="102.0" prefHeight="677.0" prefWidth="1318.0">
+      <ScrollPane layoutY="102.0" prefHeight="677.0" prefWidth="1318.0" vvalue="1.0">
          <content>
-            <AnchorPane minHeight="1500.0" prefHeight="535.0" prefWidth="2500.0" style="-fx-background-color: lightgray;">
+            <AnchorPane minHeight="2000.0" prefHeight="535.0" prefWidth="1500.0" style="-fx-background-color: lightgray;">
                <children>
                   <ListView fx:id="box1" editable="true" layoutX="59.0" layoutY="208.0" prefHeight="413.0" prefWidth="1091.0" AnchorPane.leftAnchor="59.0">
                      <padding>
@@ -66,6 +66,31 @@
                         <Font size="24.0" />
                      </font>
                   </Label>
+                  <ListView fx:id="box12" editable="true" layoutX="59.0" layoutY="1560.0" prefHeight="413.0" prefWidth="1091.0">
+                     <padding>
+                        <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                     </padding>
+                  </ListView>
+                  <Label layoutX="59.0" layoutY="1398.0" prefHeight="54.0" prefWidth="242.0" text="&gt;Ebay">
+                     <font>
+                        <Font name="Caladea" size="44.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="59.0" layoutY="1507.0" prefHeight="30.0" prefWidth="177.0" text="Product name">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="344.0" layoutY="1507.0" prefHeight="24.0" prefWidth="129.0" text="Url">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="540.0" layoutY="1507.0" prefHeight="24.0" prefWidth="129.0" text="Price">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
                </children>
             </AnchorPane>
          </content>
@@ -82,7 +107,7 @@
                   </Button>
                </children>
             </HBox>
-            <Label layoutX="955.0" layoutY="14.0" prefHeight="65.0" prefWidth="317.0" text="Great Deal!" textFill="#bc6868">
+            <Label layoutX="958.0" layoutY="28.0" prefHeight="65.0" prefWidth="317.0" text="Great Deal!" textFill="#bc6868">
                <font>
                   <Font name="FreeSans" size="54.0" />
                </font>

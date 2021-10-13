@@ -32,7 +32,7 @@ public class WalmartCrawler {
                 Element url = u.select("a").first();
 
                 ProductDto productDto = new ProductDto();
-                productDto.setName(url.getElementsByClass("w_Dr").text());
+                productDto.setName(url.getElementsByClass("w_DY").text());
                 String product_url = url.attr("href");
                 if (product_url.startsWith("/ip")) {
                     productDto.setUrl("https://www.walmart.com/" + product_url);

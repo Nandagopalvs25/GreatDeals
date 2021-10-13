@@ -1,12 +1,15 @@
 package com.example.webscrap;
 
+import com.example.webscrap.Crawlers.EbayCrawler;
 import com.example.webscrap.Crawlers.WalmartCrawler;
+import com.example.webscrap.Models.ProductDto;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.List;
 
 public class HelloApplication extends Application {
 
@@ -17,8 +20,7 @@ public class HelloApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Hello!");
         stage.setScene(scene);
-        WalmartCrawler crawler = new WalmartCrawler();
-        crawler.search("Hp laptops");
+
         stage.show();
     }
 
