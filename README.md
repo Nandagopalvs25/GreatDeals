@@ -6,4 +6,10 @@ A simple application that lets you search for products across multiple websites,
 * Jsoup
 * JavaFx
 
-https://cdn.discordapp.com/attachments/883199663891685448/897858227314753586/greatdeals-2021-10-13_20.07.19.mp4
+Ps: Prices of all products might not be available because they arent visible on the websites search results. 
+
+
+
+
+https://user-images.githubusercontent.com/65445810/137160205-a76948c6-650c-417f-83cf-3dc94b6311f3.mp4
+
